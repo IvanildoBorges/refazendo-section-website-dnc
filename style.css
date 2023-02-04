@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+    display: grid;
+    grid-auto-rows: 0fr;
+    background-color: #0C70F2;
+    min-height: 90vh;
+}
+
+#menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #303030;
+}
+
+#menu-appbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    padding: 1px 0 6px;
+}
+
+#logo {
+    padding: 10px;
+}
+
+#logo a img {
+    width: 35%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+#menu-items {
+    display: flex;
+}
+
+#menu-items ul {
+    display: flex;
+}
+
+#menu-items ul li {
+    list-style-type: none;
+}
+
+#menu-items ul li a {
+    padding: 0px 22px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: all 250ms ease-in;
+}
+
+#menu-items ul li a:hover {
+    border-top: 8px solid #0C70F2;
+}
+
+#menu-button {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    gap: 0.5rem;
+}
+
+#menu-button #signin {
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-weight: 600;
+    transition: all 300ms ease-in;
+}
+
+#menu-button #signin:hover {
+    background-color: #626262;
+}
+
+#menu-button #signup {
+    background-color: #0C70F2;
+    border-radius: 12px;
+    padding: 14px 35px;
+    font-weight: 600;
+    transition: all 250ms ease-in;
+}
+
+#menu-button #signup:hover {
+    scale: 1.1;
+    background-color: #388eff;
+}
+
+#info-container {
+    display: flex;
+    margin: 6em 18% 3rem;
+}
+
+#info-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+}
+
+.container-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 80%;
+}
+
+.container-texto h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.container-texto h1 span {
+    font-weight: 900;
+}
+
+.container-texto p {
+    font-size: 23px;
+}
+
+.container-texto p img {
+    width: 20.34px;
+    margin-right: 0.75rem;
+}
+
+p.normal-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+
+#container-form {
+    width: 70%;
+}
+
+#container-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#container-form form input {
+    height: 40px;
+    padding: 2px 16px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #7A7A7A;
+    border-radius: 12px;
+}
+
+#container-form form button {
+    height: 40px;
+    padding: 0px 24px;
+    background-color: #303030;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 250ms ease-in;
+}
+
+#container-form form button:hover {
+    background-color: #388eff;
+}
+
+#info-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 1rem;
+}
+
+#info-img img {
+    width: 90%;
+}
+
+p.azul-text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #303030;
+    margin-top: -48px;
+}
+
+#info-lojas {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+#info-lojas a img {
+    width: 100%;
+    height: 45px;
+}
